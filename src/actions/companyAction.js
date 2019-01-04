@@ -24,9 +24,9 @@ function submit(values, method){
             //toastr.success('Sucesso', 'Operação realizada com sucesso')
             dispatch(init())
         })
-        if(method == 'put'){
+        if(method === 'put'){
             window.location.href = 'http://localhost:3000/#/list'
-        }else if(method == 'post'){
+        }else if(method === 'post'){
             window.location.reload()
         }
     }

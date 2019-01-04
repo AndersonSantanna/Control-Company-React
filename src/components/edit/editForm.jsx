@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Col, Row, Button, FormGroup, Label} from 'reactstrap'
+import {Col, Row, FormGroup} from 'reactstrap'
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
 import {Field, reduxForm} from 'redux-form'

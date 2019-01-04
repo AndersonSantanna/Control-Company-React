@@ -13,7 +13,6 @@ export default class label extends Component {
     
     
     render(){
-        console.log(this.state.value);
         return(
             <Grid cols={this.props.cols}>
                 <div className='form-group'>

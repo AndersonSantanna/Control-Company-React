@@ -48,7 +48,7 @@ class List extends Component{
                         {this.renderRow()}
                     </tbody>
                 </Table>
-                <a href="#register" className='btn btn-primary'>Cadastrar</a>
+                <a href="#register" className='btn btn-primary'>Register</a>
             </div>
         )
     }
